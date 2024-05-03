@@ -1,5 +1,5 @@
 body {
-    background-color: #292929;
+    background-color: #92000A;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -11,8 +11,8 @@ body {
 
 .seat {
     background-color: #444451;
-    height: 15px;
-    width: 15px;
+    height: 35px;
+    width: 35px;
     margin: 3px;
     border-radius: 5px;
 
@@ -46,10 +46,10 @@ body {
 
 .screen {
     background: #fff;
-    height: 50px;
+    height: 100px;
     width: 100%;
-    margin: 20px;
-    box-shadow: 0 3px 8px rgba(255, 255, 255, 0.7);
+    margin-bottom: 50px;
+    box-shadow: 0 6px 16px rgba(255, 255, 255, 0.7);
 }
 
 .movie-list {
@@ -74,4 +74,19 @@ body {
 
 p.text span {
     color: #f6eb6f;
+}
+
+.button {
+    color:#fff;
+    background-color: #777;
+    border-radius: 10px;
+    height: 40px;
+    width: 80px;
+}
+
+.button:hover {
+    cursor: pointer;
+    transform: scale(1.2);
+    background-color: rgb(119, 206, 33);
+    color: #444451;
 }
